@@ -13,10 +13,7 @@ print("A média de notas é: ", media)
 
 if media >= 7:
     print("O aluno está aprovado: ")
-if media >= 5:
+elif media >= 5:
     print("O aluno está em recuperação: ")
 else:
     print("O aluno está reprovado: ")
-
-    
-    
