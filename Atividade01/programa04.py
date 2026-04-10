@@ -2,7 +2,7 @@ contador  = 1
 soma_notas = 0
 
 while contador <= 4:
-    nota = float(input(f"Digite a nota do {contador } bimestre: "))
+    nota = float(input("Digite a nota do {contador } bimestre: "))
     if nota < 0  or nota> 10:
         print("Nota inválida. A nota deve estar entre 0 e 10: ")
         continue 
